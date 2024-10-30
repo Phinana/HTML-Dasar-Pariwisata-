@@ -1,0 +1,71 @@
+body {
+    background-color: #ced3db;									
+}
+
+.meta-post {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.header header {
+    background-image: url('par1.jpg');
+    padding: 30px 40px;
+}
+
+nav.menus {
+    background-color: #2832bd;
+    padding: 10px;
+}
+
+nav.menus ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav.menus ul li {
+    display: inline-block;
+}
+
+nav.menus ul li a {
+    display: block;
+    padding: 3px 7px;
+    color: #fff;
+}
+
+nav.menus ul li a:hover, nav.menus ul li a:focus{
+    text-decoration: none;
+    background-color: #2832bd;
+    color: #fff;
+}
+
+article.posts {
+	text-align: justify;
+    padding: 10px 20px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+aside.widgets {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+aside.widgets ul {
+    margin:0;
+    padding:0;
+}
+aside.widgets li {
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+
+.widget-title {
+  border-bottom: 4px solid #1109bb;
+  padding-bottom: 4px;
+}
+
+footer.copyright {
+    padding: 10px 20px;
+    font-size: 12px;
+}
